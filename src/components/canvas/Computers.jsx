@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -10,7 +10,6 @@ const Computers = () => {
 	return (
 		<mesh>
 			<hemisphereLight intensity={0.15} groundColor="black" />
-			<pointLight intensity={1} />
 			<spotLight
 				position={[-20, 50, 10]}
 				angle={0.12}
@@ -19,6 +18,7 @@ const Computers = () => {
 				castShadow
 				shadow-mapSize={1024}
 			/>
+			<pointLight intensity={1} />
 			<primitive
 				object={computer.scene}
 				scale={0.75}
@@ -50,4 +50,4 @@ const ComputersCanvas = () => {
 	);
 };
 
-export default Computers;
+export default ComputersCanvas;
