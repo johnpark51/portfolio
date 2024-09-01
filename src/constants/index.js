@@ -4,25 +4,22 @@ import {
 	creator,
 	web,
 	javascript,
-	typescript,
 	html,
 	css,
 	reactjs,
-	redux,
 	tailwind,
 	nodejs,
-	mongodb,
 	git,
-	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
-	threejs,
+	kotra,
+	parliament,
+	chrw,
+	katsuya,
+	location,
+	kijiji,
+	scss,
+	sql,
+	githublogo,
+	express,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +43,15 @@ const services = [
 		icon: web,
 	},
 	{
-		title: "Full Stack Software Engineer",
+		title: "Full-Stack Software Engineer",
 		icon: mobile,
 	},
 	{
-		title: "Business Management Graduate",
+		title: "Business Graduate",
 		icon: backend,
 	},
 	{
-		title: "Cool Person",
+		title: "Experience in Business Development and Marketing",
 		icon: creator,
 	},
 ];
@@ -73,16 +70,8 @@ const technologies = [
 		icon: javascript,
 	},
 	{
-		name: "TypeScript",
-		icon: typescript,
-	},
-	{
 		name: "React JS",
 		icon: reactjs,
-	},
-	{
-		name: "Redux Toolkit",
-		icon: redux,
 	},
 	{
 		name: "Tailwind CSS",
@@ -93,173 +82,124 @@ const technologies = [
 		icon: nodejs,
 	},
 	{
-		name: "MongoDB",
-		icon: mongodb,
-	},
-	{
-		name: "Three JS",
-		icon: threejs,
-	},
-	{
-		name: "git",
+		name: "Git",
 		icon: git,
 	},
 	{
-		name: "figma",
-		icon: figma,
+		name: "Sass",
+		icon: scss,
 	},
 	{
-		name: "docker",
-		icon: docker,
+		name: "Express",
+		icon: express,
+	},
+	{
+		name: "Sql",
+		icon: sql,
+	},
+	{
+		name: "Github",
+		icon: githublogo,
 	},
 ];
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
-		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		title: "Marketing and Business Development Intern",
+		company_name: "KOTRA",
+		icon: kotra,
+		iconBg: "#FFFFFF",
+		date: "June 2022 - Sept 2022",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Coordinated the inaugural 2022 Korea Canada EV Battery Partnership Forum, cold calling over 300 EV companies, successfully recruiting over 50 companies the likes of Tesla, KPMG, GM Motors,and Magna.",
+			"Initialized and and scheduled over 70 B2B meetings between suppliers and manufacturers, engaging in sales for over 20 organizations.",
+			"Conducted comprehensive market research in the EV industry to identify emerging trends and business opportunities.",
+			"Assisted in generating and qualifying leads through various channels, including networking events, social media, and CRM tools.",
 		],
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
-		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		title: "Parliamentary Intern",
+		company_name: "Office of The Honourable Yonah Martin",
+		icon: parliament,
+		iconBg: "#FFFFFF",
+		date: "Sept 2021 - Jan 2022",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Spearheaded a bill briefing package for Senator Yonah Martin to fully illustrate my gain of knowledge through the completion of weekly workshops with guest presenters from parliament brought by the Senator.",
+			"Demonstrated strong soft and interpersonal skills to tackle specific parliamentary issues with the Senator.",
+			"Conducted in-depth research on proposed bills, legislative frameworks, and policy issues to support Senator Martin’s legislative agenda.",
 		],
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
-		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		title: "Program Director",
+		company_name: "Radio Western / 94.9 CHRW",
+		icon: chrw,
+		iconBg: "#FFFFFF",
+		date: "Sept 2018 - Apr 2021",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Coordinated weekly Korean-based shows on CHRW Western’s radio channel, facilitating weekly script meetings, recruiting guests, and managing the radio panel as the show was running.",
+			"Directed weekly videos on WithUFM’s YouTube channel centred around Korean international students, taking initiative on cinematographic aspects of the videos, amassing over 130,000 views on the channel.",
 		],
 	},
 	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
-		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		title: "Server",
+		company_name: "Katsuya",
+		icon: katsuya,
+		iconBg: "#FFFFFF",
+		date: "Sept 2020 - Mar 2021",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Arranged and prepared tables for customers to offer memorable experiences to guests and foster repeat business.",
+			"Replenished food items, paper products and canned goods to keep pantry well-stocked during busy periods.",
 		],
-	},
-];
-
-const testimonials = [
-	{
-		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
-	},
-	{
-		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
-	},
-	{
-		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
 	},
 ];
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Rate My Washroom",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Built a full-stack application for a user base to access nearby washrooms and their reviews, utilizing the Google Maps JavaScript Web API as well as building my own database of washrooms for users to navigate and filter through. ",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "nodejs",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "sql",
 				color: "pink-text-gradient",
-			},
-		],
-		image: carrent,
-		source_code_link: "https://github.com/",
-	},
-	{
-		name: "Job IT",
-		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "restapi",
-				color: "green-text-gradient",
 			},
 			{
 				name: "scss",
-				color: "pink-text-gradient",
+				color: "red-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: location,
+		source_code_link: "https://github.com/johnpark51/rate-my-washroom-frontend",
 	},
 	{
-		name: "Trip Guide",
+		name: "Kijiji Industry Project",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Implemented a feature to reduce scam rates across users on Kijiji through a chatting system with validation through the implementation of a random forest classifier model and various KPIs to detect suspicious behaviours amongst users.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "tailwind",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "nodejs",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: kijiji,
+		source_code_link: "https://github.com/johnpark51/industry-project-kijiji",
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

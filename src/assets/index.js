@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import john from "./john.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -21,18 +21,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import scss from "./tech/sass.png";
+import express from "./tech/express.png";
+import sql from "./tech/sql.png";
+import githublogo from "./tech/github.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import kotra from "./company/kotra.png";
+import parliament from "./company/parliament.jpg";
+import chrw from "./company/chrw.png";
+import katsuya from "./company/katsuya.webp";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import location from "./location.png";
+import kijiji from "./kijiji.png";
 
 export {
-	logo,
+	express,
 	john,
 	backend,
 	creator,
@@ -54,11 +57,13 @@ export {
 	tailwind,
 	typescript,
 	threejs,
-	meta,
-	shopify,
-	starbucks,
-	tesla,
-	carrent,
-	jobit,
-	tripguide,
+	kotra,
+	parliament,
+	sql,
+	chrw,
+	katsuya,
+	location,
+	kijiji,
+	scss,
+	githublogo,
 };
