@@ -33,6 +33,7 @@ import katsuya from "./company/katsuya.webp";
 
 import location from "./location.png";
 import kijiji from "./kijiji.png";
+import pokemon from "./pokemon.png";
 
 export {
 	express,
@@ -66,4 +67,5 @@ export {
 	kijiji,
 	scss,
 	githublogo,
+	pokemon,
 };

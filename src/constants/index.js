@@ -20,6 +20,7 @@ import {
 	sql,
 	githublogo,
 	express,
+	pokemon,
 } from "../assets";
 
 export const navLinks = [
@@ -203,6 +204,31 @@ const projects = [
 		],
 		image: kijiji,
 		source_code_link: "https://github.com/johnpark51/industry-project-kijiji",
+	},
+	{
+		name: "API Hackathon",
+		description:
+			"Project made for Hackathon at brainstation that required us to use a web API. Using the Pokemon API, me and a partner software engineer created a website for users to generate random pokemon teams and guess their names.",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "api",
+				color: "red-text-gradient",
+			},
+		],
+		image: pokemon,
+		source_code_link: "https://github.com/johnpark51/pokemon-hackathon",
 	},
 ];
 
