@@ -20,6 +20,7 @@ import {
 	sql,
 	githublogo,
 	express,
+	flappyBird,
 	pokemon,
 } from "../assets";
 
@@ -204,6 +205,27 @@ const projects = [
 		],
 		image: kijiji,
 		source_code_link: "https://github.com/johnpark51/industry-project-kijiji",
+	},
+	{
+		name: "Flappy Bird",
+		description:
+			"Recreated my favourite mobile game when I was a child, using simple HTML, CSS, and JavaScript",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: flappyBird,
+		source_code_link: "https://github.com/johnpark51/flappy-bird",
 	},
 	{
 		name: "API Hackathon",

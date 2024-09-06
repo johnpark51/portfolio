@@ -34,6 +34,7 @@ import katsuya from "./company/katsuya.webp";
 import location from "./location.png";
 import kijiji from "./kijiji.png";
 import pokemon from "./pokemon.png";
+import flappyBird from "./flappy-bird.png";
 
 export {
 	express,
@@ -68,4 +69,5 @@ export {
 	scss,
 	githublogo,
 	pokemon,
+	flappyBird,
 };
