@@ -233,7 +233,7 @@ const projects = [
 	{
 		name: "API Hackathon",
 		description:
-			"Project made for Hackathon at brainstation that required us to use a web API. Using the Pokemon API, me and a partner software engineer created a website for users to generate random pokemon teams and guess their names.",
+			"Project made for Hackathon at BrainStation that required us to use a web API. Using the Pokemon API, me and a partner software engineer created a website for users to generate random pokemon teams and guess their names.",
 		tags: [
 			{
 				name: "html",
@@ -254,7 +254,7 @@ const projects = [
 		],
 		image: pokemon,
 		source_code_link: "https://github.com/johnpark51/pokemon-hackathon",
-		deploy: "",
+		deploy: "https://pokemon-hackathon.vercel.app/",
 	},
 ];
 
