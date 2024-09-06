@@ -184,6 +184,7 @@ const projects = [
 		],
 		image: location,
 		source_code_link: "https://github.com/johnpark51/rate-my-washroom-frontend",
+		deploy: "",
 	},
 	{
 		name: "Kijiji Industry Project",
@@ -205,11 +206,12 @@ const projects = [
 		],
 		image: kijiji,
 		source_code_link: "https://github.com/johnpark51/industry-project-kijiji",
+		deploy: "",
 	},
 	{
 		name: "Flappy Bird",
 		description:
-			"Recreated my favourite mobile game when I was a child, using simple HTML, CSS, and JavaScript",
+			"Recreated my favourite mobile game when I was a child, using simple HTML, CSS, and JavaScript (desktop only)",
 		tags: [
 			{
 				name: "html",
@@ -226,6 +228,7 @@ const projects = [
 		],
 		image: flappyBird,
 		source_code_link: "https://github.com/johnpark51/flappy-bird",
+		deploy: "https://flappy-bird-six-blond.vercel.app/",
 	},
 	{
 		name: "API Hackathon",
@@ -251,6 +254,7 @@ const projects = [
 		],
 		image: pokemon,
 		source_code_link: "https://github.com/johnpark51/pokemon-hackathon",
+		deploy: "",
 	},
 ];
 
