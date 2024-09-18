@@ -7,6 +7,7 @@ import {
 	html,
 	css,
 	reactjs,
+	pokecamp,
 	tailwind,
 	nodejs,
 	git,
@@ -185,6 +186,32 @@ const projects = [
 		image: location,
 		source_code_link: "https://github.com/johnpark51/rate-my-washroom-frontend",
 		deploy: "",
+	},
+	{
+		name: "Pokecamp",
+		description:
+			"Modern UI/UX frontend website built based off of Pokemon Scarlet/Violet and the Paldean region. Integrated Next.js, Typescript, Tailwind, and React.js",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "typescript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "react",
+				color: "red-text-gradient",
+			},
+		],
+		image: pokecamp,
+		source_code_link: "https://github.com/johnpark51/pokecamp",
+		deploy: "https://pokecamp-git-main-johnpark51s-projects.vercel.app/",
 	},
 	{
 		name: "Kijiji Industry Project",

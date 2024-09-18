@@ -36,6 +36,7 @@ import location from "./location.png";
 import kijiji from "./kijiji.png";
 import pokemon from "./pokemon.png";
 import flappyBird from "./flappy-bird.png";
+import pokecamp from "./pokecamp.png";
 
 export {
 	express,
@@ -43,6 +44,7 @@ export {
 	backend,
 	creator,
 	mobile,
+	pokecamp,
 	web,
 	github,
 	menu,
